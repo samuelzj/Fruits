@@ -1,0 +1,29 @@
+body {
+  background-color: #ae1332;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 375px;
+}
+
+.fruits__order_icon {
+  fill: #ffffff;
+}
+
+.fruits__order {
+  height: 80px;
+  width: 80px;
+  background-color: #9dc262;
+  margin: auto;
+  color: #ffffff;
+  border: none;
+  border-radius: 40px;
+}
+
+.fruits__item_strawberry {
+  background-color: #f8766b;
+}
