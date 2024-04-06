@@ -4,26 +4,125 @@ body {
 
 ul {
   list-style: none;
+  padding-left: 0;
+  margin: 0;
 }
 
 .container {
   max-width: 375px;
-}
-
-.fruits__order_icon {
-  fill: #ffffff;
-}
-
-.fruits__order {
-  height: 80px;
-  width: 80px;
-  background-color: #9dc262;
+  padding-left: 20px;
+  padding-right: 20px;
   margin: auto;
+}
+
+.fruits__list {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fruits__title {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 28;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  text-shadow: 0 4px 70px 0 rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
   color: #ffffff;
-  border: none;
-  border-radius: 40px;
+  text-align: center;
+}
+
+.fruits__text {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.04em;
+  text-shadow: 0 4px 70px 0 rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #ffffff;
+}
+
+.fruits__item {
+  width: 335px;
+  height: 465px;
+  border-radius: 20px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  text-align: center;
 }
 
 .fruits__item_strawberry {
   background-color: #f8766b;
+}
+
+.fruits__item_banana {
+  background-color: #edd251;
+}
+
+.fruits__item_watermelon {
+  background-color: #9dc262;
+}
+
+.fruits__item_lime {
+  background-color: #bfd663;
+}
+
+.fruits__item_apple {
+  background-color: #e93f29;
+}
+
+.fruits__item_peach {
+  background-color: #db4f4b;
+}
+
+.fruits__subtitle {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 117%;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+}
+
+.fruits__description {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.fruits__price {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.04em;
+  color: #ae1332;
+  background-color: #ffffff;
+  text-align: left;
+  display: flex;
+  border-radius: 200px;
+  padding: 12px 24px;
+  width: 126px;
+  height: 42px;
+}
+
+.fruits__order {
+  display: block;
+  height: 80px;
+  width: 80px;
+  background-color: #9dc262;
+  margin: 30px auto;
+  color: #ffffff;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.fruits__order_icon {
+  fill: #ffffff;
 }
