@@ -8,7 +8,7 @@ ul {
   margin: 0;
 }
 
-.container {
+.fruits__container {
   max-width: 375px;
   padding-left: 20px;
   padding-right: 20px;
@@ -16,21 +16,24 @@ ul {
 }
 
 .fruits__list {
-  margin-top: 30px;
+  margin-top: 44px;
   display: flex;
   flex-wrap: wrap;
+  row-gap: 14px;
 }
 
 .fruits__title {
   font-family: "DM Sans", sans-serif;
   font-weight: 500;
-  font-size: 28;
+  font-size: 28px;
   line-height: 100%;
   letter-spacing: -0.04em;
   text-shadow: 0 4px 70px 0 rgba(0, 0, 0, 0.1);
   text-transform: uppercase;
   color: #ffffff;
   text-align: center;
+  margin: 0;
+  padding-bottom: 14px;
 }
 
 .fruits__text {
@@ -42,14 +45,13 @@ ul {
   text-shadow: 0 4px 70px 0 rgba(0, 0, 0, 0.1);
   text-align: center;
   color: #ffffff;
+  margin: 0;
 }
 
 .fruits__item {
   width: 335px;
   height: 465px;
   border-radius: 20px;
-  margin-top: 14px;
-  margin-bottom: 14px;
   text-align: center;
 }
 
@@ -84,6 +86,8 @@ ul {
   line-height: 117%;
   letter-spacing: -0.04em;
   color: #ffffff;
+  text-align: left;
+  padding-left: 24px;
 }
 
 .fruits__description {
@@ -93,6 +97,8 @@ ul {
   line-height: 129%;
   letter-spacing: -0.02em;
   color: #ffffff;
+  text-align: left;
+  padding-left: 24px;
 }
 
 .fruits__price {
@@ -109,20 +115,27 @@ ul {
   padding: 12px 24px;
   width: 126px;
   height: 42px;
+  margin-left: 24px;
 }
 
 .fruits__order {
-  display: block;
+  display: flex;
   height: 80px;
   width: 80px;
   background-color: #9dc262;
-  margin: 30px auto;
+  margin: 44px auto;
   color: #ffffff;
   border: none;
   border-radius: 40px;
   cursor: pointer;
-}
-
-.fruits__order_icon {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
   fill: #ffffff;
 }
