@@ -89,7 +89,7 @@ ul.fruits__list {
 }
 
 .fruits-item-description {
-  padding: 64px 189px 4px 24px;
+  padding: 64px 0px 0px 24px;
 }
 
 .fruits__subtitle {
@@ -109,10 +109,13 @@ ul.fruits__list {
   line-height: 129%;
   letter-spacing: -0.02em;
   color: #ffffff;
+  margin: 0 auto;
+  padding-top: 8px;
 }
 
 .fruits__img {
   text-align: center;
+  padding-bottom: 26px;
 }
 
 .fruits__price {
@@ -228,6 +231,14 @@ ul.fruits__list {
   .fruits__description {
     font-size: 18px;
     line-height: 133%;
+  }
+
+  .fruits-item-description {
+    padding: 64px 0px 5px 24px;
+  }
+
+  .fruits__img {
+    padding-bottom: 4px;
   }
 
   .fruits__price {
