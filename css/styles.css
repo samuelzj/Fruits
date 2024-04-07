@@ -80,6 +80,14 @@ ul.fruits__list {
   background-color: #db4f4b;
 }
 
+.fruits__plums {
+  display: none;
+}
+
+.fruits__orange {
+  display: none;
+}
+
 .fruits-item-description {
   padding: 64px 189px 4px 24px;
 }
@@ -144,7 +152,7 @@ ul.fruits__list {
   margin-right: auto;
   width: 80px;
   height: 80px;
-  border-radius: 50%;
+  border-radius: 100%;
   border: none;
   fill: #ffffff;
   color: #ffffff;
@@ -158,6 +166,11 @@ ul.fruits__list {
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.fruits__order_icon {
+  position: relative;
+  top: 10%;
 }
 
 .fruits__order_transform {
@@ -175,7 +188,61 @@ ul.fruits__list {
     padding-right: 32px;
   }
 
+  .fruits__first {
+    text-align: center;
+  }
+
+  .fruits__title {
+    font-size: 40px;
+    line-height: 110%;
+  }
+
   .fruits__list {
     column-gap: 14px;
+  }
+
+  .fruits__plums {
+    background-color: #9b5366;
+    display: block;
+  }
+
+  .fruits__orange {
+    background-color: #f47f4c;
+    display: block;
+  }
+
+  .fruits__text {
+    display: inline-block;
+    max-width: 547px;
+  }
+
+  .fruits__item {
+    width: 344px;
+  }
+
+  .fruits__subtitle {
+    font-size: 32px;
+    line-height: 119%;
+  }
+
+  .fruits__description {
+    font-size: 18px;
+    line-height: 133%;
+  }
+
+  .fruits__price {
+    font-size: 18px;
+    line-height: 133%;
+    padding: 15px 42px;
+    width: 136px;
+    height: 48px;
+  }
+
+  .fruits__order {
+    font-size: 18px;
+    line-height: 133%;
+    width: 114px;
+    height: 114px;
+    border-radius: 100%;
   }
 }
