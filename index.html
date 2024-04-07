@@ -29,56 +29,78 @@
                     harmful pesticides or chemicals.
                 </p>
                 <ul class="fruits__list">
-                    <li class="fruits__item fruits__item_strawberry">
-                        <h3 class="fruits__subtitle">Strawberry</h3>
-                        <p class="fruits__description">Plant</p>
-                        <img class="fruits__img" srcset="./images/strawberry.png, ./images/strawberry-2x.png 2x"
-                            src="./images/strawberry.png" alt="Strawberry" width="295" height="251">
-                        <p class="fruits__price">100 UAH / kg</p>
+                    <li class="fruits__group">
+                        <div class="fruits__item fruits__strawberry">
+                            <div class="fruits-item-description">
+                                <h3 class="fruits__subtitle">Strawberry</h3>
+                                <p class="fruits__description">Plant</p>
+                            </div>
+                            <img class="fruits__img" srcset="./images/strawberry.png, ./images/strawberry-2x.png 2x"
+                                src="./images/strawberry.png" alt="Strawberry" width="295" height="251">
+                            <button type="button" class="fruits__price">100 UAH / kg</button>
+                        </div>
                     </li>
-                    <li class="fruits__item fruits__item_banana">
-                        <h3 class="fruits__subtitle">Banana</h3>
-                        <p class="fruits__description">Plant</p>
-                        <img srcset="./images/banana.png, ./images/banana-2x.png 2x" src="./images/banana.png"
-                            alt="Banana" width="295" height="251">
-                        <p class="fruits__price">80 UAH / kg</p>
+                    <li class="fruits__group">
+                        <div class="fruits__item fruits__banana">
+                            <div class="fruits-item-description">
+                                <h3 class="fruits__subtitle">Banana</h3>
+                                <p class="fruits__description">Plant</p>
+                            </div>
+                            <img srcset="./images/banana.png, ./images/banana-2x.png 2x" src="./images/banana.png"
+                                alt="Banana" width="295" height="251">
+                            <button type="button" class="fruits__price">80 UAH / kg</button>
+                        </div>
                     </li>
-                    <li class="fruits__item fruits__item_watermelon">
-                        <h3 class="fruits__subtitle">Watermelon</h3>
-                        <p class="fruits__description">Plant</p>
-                        <img srcset="./images/watermelon.png, ./images/watermelon-2x.png 2x"
-                            src="./images/watermelon.png" alt="Watermelon" width="295" height="251">
-                        <p class="fruits__price">40 UAH / kg</p>
+                    <li class="fruits__group">
+                        <div class="fruits__item fruits__watermelon">
+                            <div class="fruits-item-description">
+                                <h3 class="fruits__subtitle">Watermelon</h3>
+                                <p class="fruits__description">Plant</p>
+                            </div>
+                            <img srcset="./images/watermelon.png, ./images/watermelon-2x.png 2x"
+                                src="./images/watermelon.png" alt="Watermelon" width="295" height="251">
+                            <button type="button" class="fruits__price">40 UAH / kg</button>
+                        </div>
                     </li>
-                    <li class="fruits__item fruits__item_lime">
-                        <h3 class="fruits__subtitle">Lime</h3>
-                        <p class="fruits__description">Plant</p>
-                        <img srcset="./images/lime.png, ./images/lime-2x.png 2x" src="./images/lime.png" alt="Lime"
-                            width="295" height="251">
-                        <p class="fruits__price">60 UAH / kg</p>
+                    <li class="fruits__group">
+                        <div class="fruits__item fruits__lime">
+                            <div class="fruits-item-description">
+                                <h3 class="fruits__subtitle">Lime</h3>
+                                <p class="fruits__description">Plant</p>
+                            </div>
+                            <img srcset="./images/lime.png, ./images/lime-2x.png 2x" src="./images/lime.png" alt="Lime"
+                                width="295" height="251">
+                            <button type="button" class="fruits__price">60 UAH / kg</button>
+                        </div>
                     </li>
-                    <li class="fruits__item fruits__item_apple">
-                        <h3 class="fruits__subtitle">Apple</h3>
-                        <p class="fruits__description">Plant</p>
-                        <img srcset="./images/apple.png, ./images/apple-2x.png 2x" src="./images/apple.png" alt="Apple"
-                            width="295" height="251">
-                        <p class="fruits__price">50 UAH / kg</p>
+                    <li class="fruits__group">
+                        <div class="fruits__item fruits__apple">
+                            <div class="fruits-item-description">
+                                <h3 class="fruits__subtitle">Apple</h3>
+                                <p class="fruits__description">Plant</p>
+                            </div>
+                            <img srcset="./images/apple.png, ./images/apple-2x.png 2x" src="./images/apple.png"
+                                alt="Apple" width="295" height="251">
+                            <button type="button" class="fruits__price">50 UAH / kg</button>
+                        </div>
                     </li>
-                    <li class="fruits__item fruits__item_peach">
-                        <h3 class="fruits__subtitle">Peach</h3>
-                        <p class="fruits__description">Plant</p>
-                        <img srcset="./images/peach.png, ./images/peach-2x.png 2x" src="./images/peach.png" alt="Peach"
-                            width="295" height="251">
-                        <p class="fruits__price">80 UAH / kg</p>
+                    <li class="fruits__group">
+                        <div class="fruits__item fruits__peach">
+                            <div class="fruits-item-description">
+                                <h3 class="fruits__subtitle">Peach</h3>
+                                <p class="fruits__description">Plant</p>
+                            </div>
+                            <img srcset="./images/peach.png, ./images/peach-2x.png 2x" src="./images/peach.png"
+                                alt="Peach" width="295" height="251">
+                            <button type="button" class="fruits__price">80 UAH / kg</button>
+                        </div>
                     </li>
                 </ul>
                 <button type="button" class="fruits__order">
-                    <span class="fruits__order_icon">
-                        <svg width="14" height="14">
-                            <use href="./images/icons.svg#icon-arrow"></use>
-                        </svg>
-                    </span>
-                    <span style="transform: rotate(-14deg);">Order</span>
+                    <svg class="fruits__order_icon" width="14" height="14">
+                        <use href="./images/icons.svg#icon-arrow"></use>
+                    </svg>
+                    <span class="fruits__order_transform">Order</span>
                 </button>
             </div>
         </section>
