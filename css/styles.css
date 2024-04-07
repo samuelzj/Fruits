@@ -155,3 +155,19 @@ ul {
 .fruits__order_icon {
   padding: 14px 4px 0px 0px;
 }
+
+/* responsywne style */
+
+/* tablet */
+
+@media (min-width: 768px) {
+  .fruits__container {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .fruits__list {
+    column-gap: 14px;
+  }
+}
