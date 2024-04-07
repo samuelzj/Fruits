@@ -54,7 +54,6 @@ ul.fruits__list {
   width: 335px;
   height: 465px;
   border-radius: 20px;
-  text-align: center;
 }
 
 .fruits__strawberry {
@@ -81,6 +80,10 @@ ul.fruits__list {
   background-color: #db4f4b;
 }
 
+.fruits-item-description {
+  padding: 64px 189px 4px 24px;
+}
+
 .fruits__subtitle {
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
@@ -100,6 +103,10 @@ ul.fruits__list {
   color: #ffffff;
 }
 
+.fruits__img {
+  text-align: center;
+}
+
 .fruits__price {
   font-family: "DM Sans", sans-serif;
   font-weight: 500;
@@ -116,7 +123,7 @@ ul.fruits__list {
   padding: 12px 24px;
   width: 126px;
   height: 42px;
-  margin: 26px 0px 24px 24px;
+  margin: 4px 0px 24px 24px;
 }
 
 .fruits__container .fruits__order:hover,
