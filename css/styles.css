@@ -6,19 +6,16 @@
   list-style: none;
   padding-left: 0;
   margin: 0;
-  gap: 14px;
+  row-gap: 14px;
+  margin-bottom: 44px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .fruits__container {
   max-width: 375px;
   margin: auto;
-}
-
-ul.fruits__list {
-  margin-bottom: 44px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 
 .fruits__title {
@@ -79,14 +76,17 @@ ul.fruits__list {
 }
 
 .fruits__plums {
+  background-color: #9b5366;
   display: none;
 }
 
 .fruits__orange {
+  background-color: #f47f4c;
   display: none;
 }
 
 .fruits__kiwi {
+  background-color: #98b37e;
   display: none;
 }
 
@@ -136,7 +136,7 @@ ul.fruits__list {
   padding: 12px 24px;
   width: 126px;
   height: 42px;
-  margin: 4px 0px 24px 24px;
+  margin: 0px 0px 24px 24px;
 }
 
 .fruits__container .fruits__order:hover,
@@ -234,18 +234,20 @@ ul.fruits__list {
   }
 
   .fruits__plums {
-    background-color: #9b5366;
     display: block;
   }
 
   .fruits__orange {
-    background-color: #f47f4c;
     display: block;
   }
 
   .fruits__text {
     display: inline-block;
     max-width: 547px;
+  }
+
+  .fruits__list {
+    gap: 14px;
   }
 
   .fruits__item {
@@ -288,6 +290,12 @@ ul.fruits__list {
   }
 }
 
+@media (min-width: 768px) and (max-width: 1279px) {
+  .fruits__plums {
+    margin-left: 14px;
+  }
+}
+
 /* desktop */
 
 @media screen and (min-width: 1280px) {
@@ -304,7 +312,6 @@ ul.fruits__list {
   }
 
   .fruits__kiwi {
-    background-color: #98b37e;
     display: block;
   }
 }
