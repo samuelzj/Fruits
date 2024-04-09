@@ -6,13 +6,11 @@
   list-style: none;
   padding-left: 0;
   margin: 0;
-  row-gap: 14px;
+  gap: 14px;
 }
 
 .fruits__container {
   max-width: 375px;
-  padding-left: 20px;
-  padding-right: 20px;
   margin: auto;
 }
 
@@ -85,6 +83,10 @@ ul.fruits__list {
 }
 
 .fruits__orange {
+  display: none;
+}
+
+.fruits__kiwi {
   display: none;
 }
 
@@ -187,8 +189,6 @@ ul.fruits__list {
 @media screen and (min-width: 768px) {
   .fruits__container {
     max-width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
   }
 
   .fruits__first {
@@ -198,10 +198,6 @@ ul.fruits__list {
   .fruits__title {
     font-size: 40px;
     line-height: 110%;
-  }
-
-  .fruits__list {
-    column-gap: 14px;
   }
 
   .fruits__plums {
@@ -256,5 +252,26 @@ ul.fruits__list {
     width: 114px;
     height: 114px;
     border-radius: 100%;
+  }
+}
+
+/* desktop */
+
+@media screen and (min-width: 1280px) {
+  .fruits__container {
+    max-width: 1280px;
+  }
+
+  .fruits__list {
+    gap: 24px;
+  }
+
+  .fruits__item {
+    width: 389px;
+  }
+
+  .fruits__kiwi {
+    background-color: #98b37e;
+    display: block;
   }
 }
