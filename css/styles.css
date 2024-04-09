@@ -175,7 +175,7 @@ ul.fruits__list {
   animation-iteration-count: infinite;
 }
 
-@-webkit-keyframes jello-horizontal {
+@keyframes jello-horizontal {
   50% {
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
